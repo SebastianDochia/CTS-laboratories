@@ -4,11 +4,16 @@
 - the class name is saying nothing
 - the function name is too generic
 - the function arguments names are not ok
-- t and s must have meaningful names (S-a zis fix mai sus?)
+- t and s must have meaningful names
 
-2. Implementation
+2. KISS (Keep it simple and stupid)
 - too many 'magic numbers' (hard coded values)
 - is t limited to {1, 2, 3, 4} or it can be bigger?
 - no validations for t,  s and perioada
+- outsource validation
+-removed switch
 
-3. Single Responsibility & KISS (Keep it simple and stupid)
+3. Dependency Inversion Principe (DIP)
+- remove the dependency regarding the validation of input values
+- remove the dependency on the static values - they are given by the Marketing team
+- remove the dependency on the way the fidelity is computed - Marketing will decide
