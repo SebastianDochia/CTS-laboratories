@@ -2,6 +2,8 @@ package ro.ase.csie.cts.labs.lab03.stage02;
 
 import ro.ase.csie.cts.labs.lab03.exceptions.InvalidAccountAgeException;
 import ro.ase.csie.cts.labs.lab03.exceptions.InvalidPriceException;
+import ro.ase.csie.cts.labs.lab03.stage03.services.MarketingInterface;
+import ro.ase.csie.cts.labs.lab03.stage03.services.ValidatorInterface;
 
 public class Product {
 
