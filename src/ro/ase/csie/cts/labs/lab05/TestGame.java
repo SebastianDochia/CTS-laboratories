@@ -1,4 +1,4 @@
-package ro.ase.csie.cts.labs.lab04;
+package ro.ase.csie.cts.labs.lab05;
 
 public class TestGame {
     public static void main(String[] args) {
