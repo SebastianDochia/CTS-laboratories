@@ -1,0 +1,21 @@
+-The class is too big/has too many responsibilities
+-Different case types used (snake case and camel case)
+-Methods use both the Linux/Java and C standard for brace placement
+-Magic numbers
+-Unintuitive naming for variables and functions / not meaningful
+-Unused variables
+-Repeating code (getMonthlyRate())
+-Everything is public / not secure
+-Spacing conventions not followed
+-Use of int constants instead of enums
+-No configurability
+-Exceptions should be defined in their own classes
+-daysActive should have a method for incrementation
+-Logging sensitive information should be avoided
+-Redundant else clause
+-Overall formatting of the class is all over the place
+-Constants created and used in methods of the class instead of being inside a dedicated interface
+-rate should be final
+-Missing cast to double when computing the brokerFee
+-The computeTotalFee method should be split in multiple methods
+-Scope not consistent (misuse of the this keyword)
