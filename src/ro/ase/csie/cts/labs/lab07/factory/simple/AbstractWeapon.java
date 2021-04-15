@@ -5,6 +5,9 @@ public abstract class AbstractWeapon {
     int power;
     int distance;
 
+    public AbstractWeapon(String color, int power) {
+    }
+
     public abstract void pewPew();
 
     public AbstractWeapon(String color, int power, int distance) {
