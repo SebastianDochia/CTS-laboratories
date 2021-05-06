@@ -1,0 +1,9 @@
+Mycelium - a collaborative IDE for teaching
+
+For viewing th statistics of the students in a class we need a way of storing and accessing all students from a class
+
+Pro:    - Handy when our new object is only slightly different from the existing one
+        - We may create the instances with the appropriate state beforehand and then clone them
+
+Con:    - Since we are cloning the objects, the process could get complex when there are many classes
+        - It's difficult to clone classes that have circular references

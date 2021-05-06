@@ -1,0 +1,9 @@
+Mycelium - a collaborative IDE for teaching
+
+When a user logs in his profile is stored in the application state. That account can either be a student account or a professor account.
+
+Pro:    - Hides the implementation
+        - It maks it easy to modify the implementation without impact over the rest of the application
+
+Con:    - Makes code more difficult to read
+        - Might further complicate the app down the line if another abstraction layer is added

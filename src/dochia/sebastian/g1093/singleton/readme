@@ -1,0 +1,9 @@
+Mycelium - a collaborative IDE for teaching
+
+Users should be able to connect to the server during a class to be able to receive real time information. Should be thread safe
+
+Pro:    - Thread safe
+        - Multiple connections cannot be created
+
+Con:    - Makes testing harder
+        - Causes the code to be tightly coupled

@@ -5,6 +5,9 @@ import ro.ase.csie.cts.labs.lab08.Adapter.FantasyCharacter;
 
 public class TestDecorator {
     public static void main(String[] args) {
+
+        //THIS IS BROKEN PLS FIX\\
+
         ACMECharacter dragon = new FantasyCharacter("Blue Eyes White Dragon", 1000);
         dragon.move();
         dragon.takeAHit(700);

@@ -1,0 +1,9 @@
+Mycelium - a collaborative IDE for teaching
+
+Users might have different profiles depending on their activity
+
+Pro:    - Thread safe
+        - Streamlines the profile management
+
+Con:    - It's a lot of code
+        - Complicates the overall app structure
