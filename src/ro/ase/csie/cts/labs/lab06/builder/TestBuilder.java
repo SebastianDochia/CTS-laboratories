@@ -1,5 +1,7 @@
 package ro.ase.csie.cts.labs.lab06.builder;
 
+import ro.ase.csie.cts.labs.lab12.memento.SuperHero;
+
 public class TestBuilder {
 
     // create the object
